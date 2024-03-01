@@ -1,0 +1,4 @@
+C:/CLionProjects/Eco.Lab1/cmake-build-dynamic-release/CMakeFiles/1F5DF16EE1BF43B999A434ED38FE8F3A.dir
+C:/CLionProjects/Eco.Lab1/cmake-build-dynamic-release/CMakeFiles/Eco_Lab1.dir
+C:/CLionProjects/Eco.Lab1/cmake-build-dynamic-release/CMakeFiles/edit_cache.dir
+C:/CLionProjects/Eco.Lab1/cmake-build-dynamic-release/CMakeFiles/rebuild_cache.dir

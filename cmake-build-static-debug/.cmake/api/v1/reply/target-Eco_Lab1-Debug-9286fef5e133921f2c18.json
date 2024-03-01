@@ -1,0 +1,287 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Eco_Lab1.exe"
+		},
+		{
+			"path" : "Eco_Lab1.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 132,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/nologo /W3 /WX- /Oy- /EHsc /GS /fp:precise /Zc:wchar_t /Zc:forScope /Gz /TC /analyze- /errorReport:queue /ZI /Od /Gm /RTC1 /MTd -MDd -Zi"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ECO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ECO_WIN32"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ECO_WINDOWS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "UGUID_UTILITY"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_WINDOWS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/CLionProjects/Eco.Lab1/HeaderFiles"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/CLionProjects/Eco.Lab1/SharedFiles"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Eco.Framework/Eco.List1/SharedFiles"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Eco.Framework/Eco.Core1/SharedFiles"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Eco.Framework/Eco.InterfaceBus1/SharedFiles"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Eco.Framework/Eco.System1/SharedFiles"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Eco.Framework/Eco.MemoryManager1/SharedFiles"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Eco.Framework/Eco.FileSystemManagement1/SharedFiles"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "90"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "1F5DF16EE1BF43B999A434ED38FE8F3A::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Eco_Lab1::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/nologo /W3 /WX- /Oy- /EHsc /GS /fp:precise /Zc:wchar_t /Zc:forScope /Gz /TC /analyze- /errorReport:queue /ZI /Od /Gm /RTC1 /MTd -MDd -Zi",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/NOLOGO /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /ERRORREPORT:QUEUE /SUBSYSTEM:CONSOLE /INCREMENTAL:NO /DEBUG /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "1F5DF16EE1BF43B999A434ED38FE8F3A.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Eco.Framework\\Eco.InterfaceBus1\\BuildFiles\\Windows\\x86\\StaticRelease\\00000000000000000000000042757331.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Eco.Framework\\Eco.MemoryManager1\\BuildFiles\\Windows\\x86\\StaticRelease\\0000000000000000000000004D656D31.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Eco.Framework\\Eco.FileSystemManagement1\\BuildFiles\\Windows\\x86\\StaticRelease\\00000000000000000000000046534D31.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Eco.Framework\\Eco.System1\\BuildFiles\\Windows\\x86\\StaticRelease\\00000000000000000000000000000100.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "Eco_Lab1",
+	"nameOnDisk" : "Eco_Lab1.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UnitTestFiles/SourceFiles/EcoLab1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SharedFiles/IdEcoLab1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SharedFiles/IEcoLab1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "HeaderFiles/CEcoLab1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "HeaderFiles/CEcoLab1Factory.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
